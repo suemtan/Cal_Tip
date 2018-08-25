@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5A8757212F81610086B561 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A8756212F81610086B561 /* SettingsViewController.swift */; };
 		0CA50B70212F5F770066BEB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA50B6F212F5F770066BEB8 /* AppDelegate.swift */; };
 		0CA50B72212F5F780066BEB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA50B71212F5F780066BEB8 /* ViewController.swift */; };
 		0CA50B75212F5F780066BEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA50B73212F5F780066BEB8 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C5A8756212F81610086B561 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0CA50B6C212F5F770066BEB8 /* Cal_Tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cal_Tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA50B6F212F5F770066BEB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CA50B71212F5F780066BEB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				0CA50B6F212F5F770066BEB8 /* AppDelegate.swift */,
 				0CA50B71212F5F780066BEB8 /* ViewController.swift */,
 				0CA50B73212F5F780066BEB8 /* Main.storyboard */,
+				0C5A8756212F81610086B561 /* SettingsViewController.swift */,
 				0CA50B76212F5F790066BEB8 /* Assets.xcassets */,
 				0CA50B78212F5F790066BEB8 /* LaunchScreen.storyboard */,
 				0CA50B7B212F5F790066BEB8 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				0CA50B72212F5F780066BEB8 /* ViewController.swift in Sources */,
 				0CA50B70212F5F770066BEB8 /* AppDelegate.swift in Sources */,
+				0C5A8757212F81610086B561 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "calculate.Cal-Tip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "calculate.Cal-Tip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
